@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Milar EMS - Контакты. Производство микроэлектроники и приборостроения.">
+    <title>Контакты | Milar EMS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo">
+                <span class="logo__icon"><i class="fas fa-microchip"></i></span>
+                <span class="logo__text">Milar EMS</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav__link">Главная</a>
+                <a href="services.html" class="nav__link">Услуги</a>
+                <a href="about.html" class="nav__link">О компании</a>
+                <a href="contacts.html" class="nav__link active">Контакты</a>
+                <a href="tel:+79259292438" class="nav__link nav__phone">
+                    <i class="fas fa-phone-alt"></i> +7 (925) 929-24-38
+                </a>
+            </nav>
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <div class="page-hero__content">
+                    <h1 class="page-hero__title">Контакты</h1>
+                    <div class="breadcrumbs">
+                        <a href="index.html" class="breadcrumbs__link">Главная</a>
+                        <span class="breadcrumbs__separator">/</span>
+                        <span class="breadcrumbs__current">Контакты</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts-page">
+            <div class="container">
+                <div class="contacts-page__grid">
+                    <div class="contacts-info">
+                        <h2 class="section__title">Как с нами связаться</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-item__content">
+                                <h3 class="contact-item__title">Адрес</h3>
+                                <p class="contact-item__text">г. Александров, улица Мосэнерго, д.11</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-item__content">
+                                <h3 class="contact-item__title">Телефон</h3>
+                                <p class="contact-item__text">
+                                    <a href="tel:+79259292438">+7 (925) 929-24-38</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-item__content">
+                                <h3 class="contact-item__title">Email</h3>
+                                <p class="contact-item__text">
+                                    <a href="mailto:info@milar-ems.ru">info@milar-ems.ru</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item__icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-item__content">
+                                <h3 class="contact-item__title">Режим работы</h3>
+                                <p class="contact-item__text">Пн-Пт: 9:00 - 18:00</p>
+                                <p class="contact-item__text">Сб-Вс: выходные</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-social">
+                            <h3 class="contact-social__title">Мы в соцсетях:</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-vk"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contacts-form">
+                        <h2 class="section__title">Оставить заявку</h2>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Ваше имя</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Телефон</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Сообщение</label>
+                                <textarea id="message" name="message" rows="4"></textarea>
+                            </div>
+                            <div class="form-group form-group--checkbox">
+                                <input type="checkbox" id="agreement" name="agreement" required>
+                                <label for="agreement">Я согласен на обработку персональных данных</label>
+                            </div>
+                            <button type="submit" class="btn btn--primary">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="contacts-map">
+                    <h2 class="section__title">Как нас найти</h2>
+                    <div class="map-container">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1234567890abcdef&amp;lang=ru_RU&amp;scroll=true" frameborder="0" allowfullscreen="true"></iframe>
+                    </div>
+                </div>
+
+                <div class="requisites">
+                    <h2 class="section__title">Реквизиты компании</h2>
+                    <div class="requisites__content">
+                        <div class="requisites__item">
+                            <span class="requisites__label">Наименование:</span>
+                            <span class="requisites__value">ООО "Милар ЭМС"</span>
+                        </div>
+                        <div class="requisites__item">
+                            <span class="requisites__label">ИНН:</span>
+                            <span class="requisites__value">1234567890</span>
+                        </div>
+                        <div class="requisites__item">
+                            <span class="requisites__label">КПП:</span>
+                            <span class="requisites__value">987654321</span>
+                        </div>
+                        <div class="requisites__item">
+                            <span class="requisites__label">ОГРН:</span>
+                            <span class="requisites__value">1234567890123</span>
+                        </div>
+                        <div class="requisites__item">
+                            <span class="requisites__label">Банк:</span>
+                            <span class="requisites__value">ПАО "Сбербанк"</span>
+                        </div>
+                        <div class="requisites__item">
+                            <span class="requisites__label">Р/с:</span>
+                            <span class="requisites__value">40702810123456789012</span>
+                        </div>
+                        <div class="requisites__item">
+                            <span class="requisites__label">К/с:</span>
+                            <span class="requisites__value">30101810400000000225</span>
+                        </div>
+                        <div class="requisites__item">
+                            <span class="requisites__label">БИК:</span>
+                            <span class="requisites__value">044525225</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <div class="footer__logo">
+                        <span class="logo__icon"><i class="fas fa-microchip"></i></span>
+                        <span class="logo__text">Milar EMS</span>
+                    </div>
+                    <p class="footer__about">Производство микроэлектроники и приборостроения. Полный цикл услуг от разработки до серийного производства.</p>
+                    <div class="footer__social">
+                        <a href="#" class="social__link"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="social__link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social__link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Услуги</h3>
+                    <ul class="footer__menu">
+                        <li><a href="services.html#pcb">Сборка печатных плат</a></li>
+                        <li><a href="services.html#harness">Сборка жгутов</a></li>
+                        <li><a href="services.html#cases">Производство корпусов</a></li>
+                        <li><a href="services.html#antennas">Изготовление антенн</a></li>
+                        <li><a href="services.html">Все услуги</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Компания</h3>
+                    <ul class="footer__menu">
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="about.html#equipment">Оборудование</a></li>
+                        <li><a href="about.html#certificates">Сертификаты</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Контакты</h3>
+                    <div class="footer__contact">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>г. Александров, улица Мосэнерго, д.11</span>
+                    </div>
+                    <div class="footer__contact">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+79259292438">+7 (925) 929-24-38</a>
+                    </div>
+                    <div class="footer__contact">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@milar-ems.ru">info@milar-ems.ru</a>
+                    </div>
+                    <div class="footer__contact">
+                        <i class="fas fa-clock"></i>
+                        <span>Пн-Пт: 9:00 - 18:00</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2023 Milar EMS. Все права защищены.</p>
+                <a href="#" class="footer__policy">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
