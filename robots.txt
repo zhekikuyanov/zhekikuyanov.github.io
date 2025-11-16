@@ -5,6 +5,5 @@ Disallow: /login/
 Disallow: /register/
 Disallow: /admin/
 Disallow: /print/
-# Добавь другие пути, которые хочешь запретить
 
 Sitemap: https://zhekikuyanov.github.io/sitemap.xml
